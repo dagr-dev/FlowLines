@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\HLA_Toolbox.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\HLA_Toolbox.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\HLA_Toolbox.csproj",
+        "projectName": "HLA_Toolbox",
+        "projectPath": "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\HLA_Toolbox.csproj",
+        "packagesPath": "C:\\Users\\DAGR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DAGR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\files\\MergedCompanies\\HenningLarsen\\Denmark\\Copenhagen\\Sustainability\\Engineering\\Software tools\\NugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Grasshopper": {
+              "target": "Package",
+              "version": "[7.10.21256.17001, )"
+            },
+            "RhinoCommon": {
+              "target": "Package",
+              "version": "[7.10.21256.17001, )"
+            },
+            "ZipStorer": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

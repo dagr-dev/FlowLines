@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Grasshopper/7.10.21256.17001": {
+        "type": "package",
+        "dependencies": {
+          "RhinoCommon": "[7.10.21256.17001]"
+        },
+        "compile": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/GH_IO.dll": {
+            "related": ".XML"
+          },
+          "lib/net48/Grasshopper.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/Grasshopper.targets": {}
+        }
+      },
+      "RhinoCommon/7.10.21256.17001": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net48/Eto.dll": {
+            "related": ".xml"
+          },
+          "lib/net48/Rhino.UI.dll": {},
+          "lib/net48/RhinoCommon.dll": {
+            "related": ".XML"
+          }
+        },
+        "build": {
+          "build/RhinoCommon.targets": {}
+        }
+      },
+      "ZipStorer/3.8.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/ZipStorer.dll": {}
+        },
+        "runtime": {
+          "lib/net452/ZipStorer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Grasshopper/7.10.21256.17001": {
+      "sha512": "XYeZq0moakyP+TtptqoSgIoz1LOUyWTbUDXAsaWWliMRIUfFs43XS633kQm49PchgHFF95Hj1iDU2GcjR1HQqw==",
+      "type": "package",
+      "path": "grasshopper/7.10.21256.17001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Grasshopper.targets",
+        "grasshopper.7.10.21256.17001.nupkg.sha512",
+        "grasshopper.nuspec",
+        "grasshopper.png",
+        "lib/net48/GH_IO.XML",
+        "lib/net48/GH_IO.dll",
+        "lib/net48/Grasshopper.dll",
+        "lib/net48/Grasshopper.xml"
+      ]
+    },
+    "RhinoCommon/7.10.21256.17001": {
+      "sha512": "6+c3WSiBdbcJDPKgA+JweWMhYC5guiqIsC1lI9VqHHcAnyKYVrkgKRWGiPjEjnK8Fo1u7ivl4dZ3DTuvTGMGqQ==",
+      "type": "package",
+      "path": "rhinocommon/7.10.21256.17001",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Eto-LICENSE.txt",
+        "build/RhinoCommon.targets",
+        "lib/net48/Eto.dll",
+        "lib/net48/Eto.xml",
+        "lib/net48/Rhino.UI.dll",
+        "lib/net48/RhinoCommon.XML",
+        "lib/net48/RhinoCommon.dll",
+        "rhinocommon.7.10.21256.17001.nupkg.sha512",
+        "rhinocommon.nuspec",
+        "rhinocommon.png"
+      ]
+    },
+    "ZipStorer/3.8.0": {
+      "sha512": "MK+MwsoVwWgunByGnrGWSb/7Y/7GLRRfI0tU4gQdRgHJLhS4/tKw3LYqpbaEZZFKlRFKJ20DY5tZL1vSewmQrg==",
+      "type": "package",
+      "path": "zipstorer/3.8.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/ZipStorer.dll",
+        "lib/net452/ZipStorer.dll",
+        "lib/netstandard2.0/ZipStorer.dll",
+        "zipstorer.3.8.0.nupkg.sha512",
+        "zipstorer.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Grasshopper >= 7.10.21256.17001",
+      "RhinoCommon >= 7.10.21256.17001",
+      "ZipStorer >= 3.8.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DAGR\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\DAGR\\Source\\Repos\\HLA_Toolbox\\HLA_Toolbox.csproj",
+      "projectName": "HLA_Toolbox",
+      "projectPath": "C:\\Users\\DAGR\\Source\\Repos\\HLA_Toolbox\\HLA_Toolbox.csproj",
+      "packagesPath": "C:\\Users\\DAGR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DAGR\\Source\\Repos\\HLA_Toolbox\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\DAGR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "\\\\files\\MergedCompanies\\HenningLarsen\\Denmark\\Copenhagen\\Sustainability\\Engineering\\Software tools\\NugetPackages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "Grasshopper": {
+            "target": "Package",
+            "version": "[7.10.21256.17001, )"
+          },
+          "RhinoCommon": {
+            "target": "Package",
+            "version": "[7.10.21256.17001, )"
+          },
+          "ZipStorer": {
+            "target": "Package",
+            "version": "[3.8.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

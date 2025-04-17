@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sXJYo4zmQ7I=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DAGR\\source\\repos\\HLA_Toolbox\\HLA_Toolbox.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DAGR\\.nuget\\packages\\grasshopper\\7.10.21256.17001\\grasshopper.7.10.21256.17001.nupkg.sha512",
+    "C:\\Users\\DAGR\\.nuget\\packages\\rhinocommon\\7.10.21256.17001\\rhinocommon.7.10.21256.17001.nupkg.sha512",
+    "C:\\Users\\DAGR\\.nuget\\packages\\zipstorer\\3.8.0\\zipstorer.3.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}
